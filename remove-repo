@@ -1,0 +1,11 @@
+# to remove a git repository from a folder from a folder and turn it back 
+# to a regular folder
+# the principla is_ to delete the hidden .git directory inside folder
+# on Linux or macOS:
+# rm: remove
+# -r recursive
+# -f force
+
+rm -rf .git
+
+
