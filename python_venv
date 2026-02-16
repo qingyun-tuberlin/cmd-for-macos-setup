@@ -33,3 +33,12 @@ python -c "import requests, sys; print('requests', requests.__version__, 'python
 
 # You’ll see something like:
 # requests 2.32.x python 3.14.x
+
+
+
+how to install new version of python and create virtual environment
+
+brew install python@3.11
+python3.11 -m venv .venv311
+source .venv311/bin/activate
+pip install transformers datasets evaluate accelerate scikit-learn
